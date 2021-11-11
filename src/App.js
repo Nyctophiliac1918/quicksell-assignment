@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 import axios from 'axios';
-import Counter from './Counter';
-import CounterVal from './CounterVal';
+import Counter from './Components/Counter';
+import CounterVal from './Components/CounterVal';
 
 function App() {
 
@@ -89,6 +89,9 @@ function App() {
             <div className="main-box margin-top--48">
               <Counter counterValue = {counter} saving = {changing} maxValue = {max} added = {handleAdded} subtracted = {handleSubtracted} changed = {(val) => handleChanged(Number(val))} />
               <CounterVal data = {counter} />
+            </div>
+            <div className="intro">
+              For knowing about the rules of this app, refer to README of <a href="https://github.com/Nyctophiliac1918/quicksell-assignment">Github</a> repo.
             </div>
           </div>
         )

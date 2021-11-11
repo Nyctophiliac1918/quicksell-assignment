@@ -98,6 +98,14 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
+.intro {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    /* background-color: #fff; */
+}
+
 .border-custom {
     border: rgb(165, 73, 70) 1px solid !important;
     width: 100px !important;
