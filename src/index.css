@@ -19,9 +19,9 @@ code {
 /* CSS by Karan Saraswat */
 
 .button-add {
-    background-color: rgb(165, 73, 70);
+    background-color: rgb(179, 64, 64);
     color: white;
-    border: rgb(165, 73, 70) 1px solid;
+    border: rgb(179, 64, 64) 1px solid;
     /* border: none; */
     text-align: center;
     text-decoration: none;
@@ -33,9 +33,9 @@ code {
 }
 
 .button-add-disabled {
-    background-color: rgb(165, 73, 70);
+    background-color: rgb(179, 64, 64);
     color: white;
-    border: rgb(165, 73, 70) 1px solid;
+    border: rgb(179, 64, 64) 1px solid;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -48,8 +48,8 @@ code {
 
 .button-subtract {
     background-color: white;
-    color: rgb(165, 73, 70);
-    border: rgb(165, 73, 70) 1px solid;
+    color: rgb(179, 64, 64);
+    border: rgb(179, 64, 64) 1px solid;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -71,15 +71,15 @@ code {
     line-height: 1rem;
     text-align: center;
     padding: 10px 0 7.75px;
-    border-top: rgb(165, 73, 70) 1px solid;
-    border-bottom: rgb(165, 73, 70) 1px solid;
+    border-top: rgb(179, 64, 64) 1px solid;
+    border-bottom: rgb(179, 64, 64) 1px solid;
     border-left: none;
     border-right: none;
-    width: 80px;
+    width: 60px;
     font-size: 16px;
     font-weight: 700;
     background-color: rgb(248, 233, 233);
-    color: rgb(165, 73, 70);
+    color: rgb(179, 64, 64);
     margin: 8px 0;
 }
 
@@ -107,9 +107,13 @@ input[type="number"] {
 }
 
 .border-custom {
-    border: rgb(165, 73, 70) 1px solid !important;
+    border: rgb(179, 64, 64) 1px solid !important;
     width: 100px !important;
     border-radius: 5px;
+}
+
+.custom-padding {
+    padding-left: 37px !important;
 }
 
 .plzWait {
@@ -135,7 +139,7 @@ input[type="number"] {
     border: 8px solid #fff;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: rgb(165, 73, 70) transparent transparent transparent;
+    border-color: rgb(179, 64, 64) transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
@@ -161,7 +165,7 @@ input[type="number"] {
     right: 0;
     left: 0;
     margin: 0 auto;
-    padding: 12px 0;
+    padding: 4px 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 8px;
     background-color: #fff;

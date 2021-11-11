@@ -91,7 +91,7 @@ function App() {
               <CounterVal data = {counter} />
             </div>
             <div className="intro">
-              For knowing about the rules of this app, refer to README of <a href="https://github.com/Nyctophiliac1918/quicksell-assignment">Github</a> repo.
+              For knowing about the rules of this app, please refer to README of <a href="https://github.com/Nyctophiliac1918/quicksell-assignment">Github</a> repo.
             </div>
           </div>
         )

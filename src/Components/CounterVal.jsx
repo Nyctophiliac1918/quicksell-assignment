@@ -1,8 +1,8 @@
 function CounterVal(props) {
 
     return (
-        <div className="saving">
-            {props.data}
+        <div className="saving custom-padding">
+            Counter value: {props.data}
         </div>
     );
 }
