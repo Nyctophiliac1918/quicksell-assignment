@@ -1,5 +1,7 @@
 html {
     background-color: rgb(249, 249, 249);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
@@ -64,7 +66,7 @@ code {
 }
 
 .button-subtract:hover {
-    background-color: rgb(248, 233, 233);
+    background-color: rgb(251, 233, 233);
 }
 
 .input-custom {
@@ -78,7 +80,7 @@ code {
     width: 60px;
     font-size: 16px;
     font-weight: 700;
-    background-color: rgb(248, 233, 233);
+    background-color: rgb(251, 233, 233);
     color: rgb(179, 64, 64);
     margin: 8px 0;
 }
