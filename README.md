@@ -23,7 +23,7 @@
 * public: contains all the static assets like html, logos and styles file which are to be served.
 
 ### Deployed Link
-* https://lottery-app-1918.netlify.app
+* https://counter-app-karan-saraswat.netlify.app/
 
 ## Setup
 To run this project, install it locally using npm.
